@@ -121,7 +121,7 @@ body{
 }
 
 .secundario__imagem{
-    width: 80%;
+    width: 50%;
     padding: 2em;
 }
 .secundario_paragrafo{
@@ -137,7 +137,7 @@ body{
 }
 
 .dispositivos{
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     
 }
@@ -203,4 +203,51 @@ body{
     font-size: .875em;
     color: var(--cinza-secundario);
     margin: 1em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        display: block;
+        background: none;
+    
+        
+       
+    }
+    .principal{
+        display: flex;
+        justify-content: center;
+    }
+    .container__imagem{
+        width: 50vw;
+    }
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 2em 2em;
+        text-align: center;
+        padding: auto 0;
+    }
+
+    .dispositivos__lista{
+        display: block;
+        text-align: center;
+    }
+
+    footer{
+        display: block;
+        max-width: 100vw;
+        margin: 2em 2em;
+    }
+
+    .rodape__navegacao{
+        display: block;
+    }
+
+    .rodape__link{
+        display: block;
+        margin: .5em .5em;
+    }
 }
