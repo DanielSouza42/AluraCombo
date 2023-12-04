@@ -207,17 +207,17 @@ body{
 
 @media screen and (max-width: 768px) {
 
+
     .container{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background: none;
-    
+        
         
        
     }
-    .principal{
-        display: flex;
-        justify-content: center;
-    }
+
     .container__imagem{
         width: 50vw;
     }
@@ -231,6 +231,9 @@ body{
         padding: auto 0;
     }
 
+    .secundario__imagem{
+        width: 70%;
+    }
     .dispositivos__lista{
         display: block;
         text-align: center;
